@@ -15,5 +15,16 @@ function welcome() {
 }
 
 function questionnaire() {
-  // write the code for your questionnaire here
+
+  let name = prompt('what is your name ?')
+
+  alert(  name + ' is such a cool name')
+
+  let breakfast = prompt( 'what did you have for breakfast?') 
+
+  alert(  breakfast + ' is very yummy')
+
+  let colour = prompt(' What is your favourite colour?')
+
+  alert(  colour + ' is my favourite too !')
 }
