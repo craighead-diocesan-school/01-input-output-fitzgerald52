@@ -27,4 +27,12 @@ function questionnaire() {
   let colour = prompt(' What is your favourite colour?')
 
   alert(  colour + ' is my favourite too !')
+
+  let age = prompt ( 'how old are you ? ')
+
+   age = Number(age)
+
+age = age+1
+
+  alert ('you will be' + age + ' on your next birthday !'  )
 }
