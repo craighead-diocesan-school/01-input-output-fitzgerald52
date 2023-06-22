@@ -4,5 +4,5 @@
 
 function theRepeater() {
 let answer = prompt( "say something ")
-let Repeater = alert ( 'you said : ' + answer)
+alert ( 'you said : ' + answer)
 }
