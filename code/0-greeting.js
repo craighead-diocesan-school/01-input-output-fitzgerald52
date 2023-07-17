@@ -10,7 +10,7 @@ function greeting() {
 
 function joke() {
   // write the code for your joke here.
-  let joke = prompt ('do you want to hear a joke?')
+  alert('hear is a joke?')
   alert('do you know what is the hardest part about eating a clock?')
   alert(' It is really time consuming')
 }

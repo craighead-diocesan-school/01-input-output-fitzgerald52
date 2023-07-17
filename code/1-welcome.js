@@ -3,7 +3,6 @@
 // ####################################
 
 function welcome() {
-  
   let name = prompt('what is your name ?')
 
   alert('We want to know if you like programming!')
@@ -15,24 +14,23 @@ function welcome() {
 }
 
 function questionnaire() {
-
   let name = prompt('what is your name ?')
 
-  alert(  name + ' is such a cool name')
+  alert(name + ' is such a cool name')
 
-  let breakfast = prompt( 'what did you have for breakfast?') 
+  let breakfast = prompt('what did you have for breakfast?')
 
-  alert(  breakfast + ' is very yummy')
+  alert(breakfast + ' is very yummy')
 
   let colour = prompt(' What is your favourite colour?')
 
-  alert(  colour + ' is my favourite too !')
+  alert(colour + ' is my favourite too !')
 
-  let age = prompt ( 'how old are you ? ')
+  let age = prompt('how old are you ? ')
 
-   age = Number(age)
+  age = Number(age)
 
-age = age+1
+  age = age + 1
 
-  alert ('you will be' + age + ' on your next birthday !'  )
+  alert('you will be' + age + ' on your next birthday !')
 }

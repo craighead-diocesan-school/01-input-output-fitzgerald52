@@ -3,6 +3,6 @@
 // ####################################
 
 function theRepeater() {
-let answer = prompt( "say something ")
-alert ( 'you said : ' + answer)
+  let answer = prompt('say something ')
+  alert('you said : ' + answer)
 }
